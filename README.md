@@ -11,13 +11,22 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
+Visual studio Plugins
+eslint
+ES7+ React/Redux/React-Native snippets
+React Developer Tools
+Types Auto Installer
+Path Intellisense
+Auto Import
+Import Cost
+
 ```js
 export default tseslint.config({
   extends: [
     // Remove ...tseslint.configs.recommended and replace with this
     ...tseslint.configs.recommendedTypeChecked,
     // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
+    ...tseslint.configs.strictTypeChecked, 
     // Optionally, add this for stylistic rules
     ...tseslint.configs.stylisticTypeChecked,
   ],
